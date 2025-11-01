@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <div class="container navbar">
+        <span>😀HADI</span>
+    <!----NAVBAR--->
+    <nav class="navbar">
+        <span>HOME</span>
+        <span>&nbsp;&nbsp;Portfolio</span>
+        <span>&nbsp;&nbsp;Testimorial</span>
+        <span>&nbsp;&nbsp;About</span>
+    </nav>
+    <!-----social unity icons----->
+    <div class="nav icons">
+        <button aria-label="Dark Mode">
+            <i data-iclude="moon" class="w-5 h-5"></i>
+        </button>
+        <a src="micro.jpeg"  class="social-icon-mobile" >
+          <i data-iclude="LinkedIn" class="w-5 h-5"></i>
+        </a>
+        <a href="#" aria-label="Instagram" class="social-icon-mobile" style="display: none;">
+              <i data-iclude="instagram" class="w-5 h-5"></i>
+        </a> 
+    </div>
+        </div>
+    </header>
+    <!---main content-->
+    <main class="container">
+
+        <!---hero section-->
+        <section id="hero">
+            <!----left:info text--->
+            <div class="hero-text">
+                <p style="color: var(--text-muted); font-size: 1.1rem; margin-bottom: 5px;"><h2>I'm</h2></p>
+                <h1>Abdul Hadi</h1>
+                <p style="max-width: 450px; font-size: 1rem;">
+                    A freelancer who provide services for digital programing and design content needs, for all business with more than 
+                </p>
+                <div class="cta-buttons">
+                    <a href="#porfolio" class="primary-btn" >View Portfolio </a>
+                    <a href="#contact" class="secondary-btn">Hire Me</a>
+                </div>
+            </div>
+        <!----center:image--->
+        <div class="hero-image">
+            <!----placeholder---->
+            <img src="babar.png"class="babar" >
+        </div>
+        <!-----right:services/social icons---->
+        <div class="social-icons-hero">
+            <img class="face"  src="face.png" class="w-5 h-5">
+            <img class="twitter" src="twitter.png">
+            <img class="printerest" src="priterest.jpeg">
+            <img class="instagram" src="instagram.jpeg">
+        </div>
+        </div>
+        </section>
+        <!-----client logos banner----->
+        <section id="clients">
+            <div class="container client-logo">
+                <div class="client-logo-item">
+                    <i data-iclude="meta" class="w-6 h-6" style="color: #4a90e2;"></i>
+                    <span class="meta">Meta</span>
+                </div>
+                <div class="client-logo-item">
+                    <i data-iclude="search" class="w-6 h-6"></i>
+                    <span class="google">Google</span>
+                </div>
+                <div class="client-logo-item">
+                    <i data-iclude="LinkedIn" class="w-5 h-6"></i>
+                    <spanv class="linked">Linked <span class="in"  style="font-weight: 400;">in</span></span>
+                </div>
+                <div class="client-logo-item">
+                    <i data-iclude="slack" class="w-5 h-6" style="color: #e01e5a;"></i>
+                    <span class="slack">slack</span>
+                </div>
+            </div>
+        </section>
+
+        <!---services section (what can  I do)--->
+        <section id="services-section">
+            <!---left info start-->
+            <div class="services-info">
+                <h2>What can I Do<br> for your need</h2>
+                <p style="max-width: 500px;">
+                    It is easier to enturst the work to the experts<br> because they are able to provide the best results <br>with reliable quattlity.
+                </p>
+                <!--starts-grid-->
+                <div class="start-grid">
+                    <div class="start-item">
+                        <p class="h1">250+</p>
+                        <p>project completed</p>
+                    </div>
+                    <div class="start-item">
+                        <p class="h1">100+</p>
+                        <p>Community Network</p>
+                    </div>
+                    <div class="start-item">
+                        <p class="h1">30+</p>
+                        <p>Years in industry</p>
+                        </div>
+                        <div class="start-item">
+                            <p class="h1">10+</p>
+                            <p>Global Awards</p>
+                        </div>
+                        </div>
+            </div>
+            <!---service cards2--->
+        <div >
+         <img class="meer" src="ui.jpeg"><h1>UI/UX Design</h1>
+         <img class="meer" src="front.jpeg"><h1>Frontend Develop</h1>
+         <img class="meer" src="mobile.jpeg"><h1>Mobile App Develop</h1>
+        </div>
+        </div>
+        </section>
+    </main>
+    <!---footer-->
+    <footer>
+        <div class="container">
+            &copy; 2025 Abdul Hadi. All rights reversed. (pure CSS Version) 
+            </div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContent' , () =>{
+            if(typeof lucide !== 'underfined'){
+                lucide.createIcons();
+            } else{
+                console.error("lucide icons script faild to load.");
+            }
+        });
+    </script>
+</body>
+</html>
