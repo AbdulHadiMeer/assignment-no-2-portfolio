@@ -426,7 +426,9 @@
             height: 100px;
         }
         
-        
+        .h3{
+            opacity: 0.4;
+        }
         
         /* ==================================== */
         /* MEDIA QUERIES (Mobile/Tablet/Desktop)*/
@@ -517,3 +519,4 @@
             }
             
         }
+        
