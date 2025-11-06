@@ -414,8 +414,7 @@
             height: 10px;
         }
         .h1{
-            color: yellow;
-        }
+            color: yellow;        }
         .ui{
             width: 100px;
             height: 50px;
@@ -428,6 +427,16 @@
         
         .h3{
             opacity: 0.4;
+        }
+        .malinga{
+            display: flex;
+           align-items : end;
+        }
+        .eshal{
+            display: flex;
+            justify-content: end;
+            display: inline-block;
+            
         }
         
         /* ==================================== */
@@ -519,4 +528,9 @@
             }
             
         }
-        
+        @media (max-width:768px) {
+        .non{
+            display: none;
+        }
+        }
+       
