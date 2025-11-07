@@ -436,7 +436,14 @@
             display: flex;
             justify-content: end;
             display: inline-block;
-            
+            position:absolute;
+            right: 4vh;
+
+        }
+        #akram{
+            position: absolute;
+            right: 10vh;
+            bottom: 0vh;
         }
         
         /* ==================================== */
@@ -531,6 +538,14 @@
         @media (max-width:768px) {
         .non{
             display: none;
+        }
+        .eshal{
+            position: absolute;
+            bottom: -74vh;
+        }
+        #akram{
+            position: absolute;
+            bottom: -5vh;
         }
         }
        
