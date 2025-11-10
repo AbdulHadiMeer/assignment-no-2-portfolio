@@ -438,12 +438,19 @@
             display: inline-block;
             position:absolute;
             right: 4vh;
+            bottom: 15vh;
 
         }
         #akram{
             position: absolute;
             right: 10vh;
             bottom: 0vh;
+        }
+        .muhammad{
+            border: solid rgb(4, 4, 36) ;
+            background-color:rgb(4, 4, 36);
+            width: 300px;
+            height: 300px;
         }
         
         /* ==================================== */
@@ -540,12 +547,14 @@
             display: none;
         }
         .eshal{
-            position: absolute;
-            bottom: -60vh;
+            position: relative;
+            bottom: -10vh;
+            right: -3vh;
         }
         #akram{
-            position: absolute;
-            bottom: 20vh;
+            position: relative;
+            bottom: -15vh;
+            right: -10vh;
         }
         }
        
