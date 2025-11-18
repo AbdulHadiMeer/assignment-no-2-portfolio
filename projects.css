@@ -1,0 +1,10 @@
+
+
+.cards {
+    display: flex;             /* cards ek line me */
+    gap: 20px;                 /* cards ke beech space */
+    justify-content: center;   /* center me lane ke liye */
+    margin-top: 40px;
+}
+
+
