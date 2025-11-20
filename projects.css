@@ -58,3 +58,29 @@
     }
     
 }
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column layout for mobile */
+    gap: 24px; /* Gap between cards */
+    padding: 16px; /* Padding for body */
+}
+
+/* ------------------------------------------- */
+/* 2. Medium Screens (Tablets - equivalent to Tailwind's 'md:') */
+@media (min-width: 768px) {
+    .card-container {
+        /* Two columns for tablet screens */
+        grid-template-columns: 1fr 1fr; /* or repeat(2, 1fr) */
+        padding: 32px; /* Increased body padding */
+    }
+}
+
+/* ------------------------------------------- */
+/* 3. Large Screens (Desktops - equivalent to Tailwind's 'lg:') */
+@media (min-width: 1024px) {
+    .card-container {
+        /* Three columns for desktop screens */
+        grid-template-columns: 1fr 1fr 1fr; /* or repeat(3, 1fr) */
+        padding: 48px;
+    }
+}
