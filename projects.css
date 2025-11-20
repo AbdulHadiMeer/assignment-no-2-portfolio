@@ -1,10 +1,60 @@
 
-
-.cards {
-    display: flex;             /* cards ek line me */
-    gap: 20px;                 /* cards ke beech space */
-    justify-content: center;   /* center me lane ke liye */
-    margin-top: 40px;
+.body{
+    background-color: rgb(1, 1, 31);
+            animation: fadeInUp 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
 }
 
 
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+     
+}
+
+.class{
+     color:#7c7b7b ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 88px;
+    display: flex;
+    justify-content: center;
+}
+.class:hover{
+    color:#f1eded ;
+
+}
+.hero{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+.card1:hover{
+    transform: scale(1.05);
+}
+.card2:hover{
+    transform: scale(1.05);
+}
+.card3:hover{
+    transform: scale(1.05);
+}
+@media only screen and (max-width: 768px){
+    .class{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .hero{
+        display: flex;
+        gap: 20px;
+
+    }
+    
+}

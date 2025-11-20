@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom Configuration and Font Styling Removed for Standard LTR Text -->
+    <style>
+        /* Setting up a clean, standard LTR layout */
+        body {
+            font-family: 'Inter', sans-serif; /* Default font or standard sans-serif */
+            text-align: left;
+            line-height: 1.6;
+            direction: ltr;
+        }
+        .container {
+            direction: ltr; /* Ensure container respects LTR */
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary-blue': '#1e40af',
+                        'secondary-gray': '#f3f4f6',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased  class1"  style="background-color: rgb(4, 4, 61);">
+
+    <!-- Header / Navigation Placeholder -->
+    <!-- <header class="bg-white shadow-md">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-primary-blue">Portfolio</h1>
+        </div>
+    </header> -->
+
+    <!-- Main Content: About Section -->
+    <main class="py-16 md:py-24">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <!-- Title -->
+            <div class="mb-12 border-b-2 border-primary-blue pb-3">
+                <h2 class="text-4xl font-extrabold text-gray-900 leading-tight" style="color:white;">About Me</h2>
+                <p class="text-xl text-gray-600 mt-2">(My Background and Vision)</p>
+            </div>
+
+            <!-- Introduction Section -->
+            <section class="mb-12 p-6 bg-white rounded-xl shadow-lg">
+                <h3 class="text-3xl font-bold text-primary-blue mb-4">Introduction</h3>
+                <p class="text-lg text-gray-700">
+                    Hello! My name is Abdul Hadi, and I am a Junior Spftware Engineer. For me, the combination of creativity and technology is the key to finding effective solutions to any problem. I have been active in Web Development And Designing for 4 months and always strive to work on projects that are not only aesthetically pleasing but also easy to use and meaningful.
+                </p>
+            </section>
+
+            <!-- Philosophy Section -->
+            <section class="mb-12 p-6 bg-secondary-gray rounded-xl shadow-inner">
+                <h3 class="text-3xl font-bold text-primary-blue mb-4"> Philosophy</h3>
+                <p class="text-lg text-gray-700">
+                    I believe that every project, whether small or large, tells a story. My goal is not just to write code, create designs, or formulate strategies, but to give your vision a concrete, practical form. I pay special attention to detail, prioritize User Experience (UX), and ensure that the final product meets all requirements and is of the highest quality.
+                </p>
+            </section>
+
+            <!-- Skills Section -->
+            <section class="mb-12 p-6 bg-white rounded-xl shadow-lg">
+                <h3 class="text-3xl font-bold text-primary-blue mb-6"> Skills</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <!-- Skill Card 1 -->
+                    <div class="bg-primary-blue/10 p-4 rounded-lg shadow-sm hover:shadow-md transition duration-300">
+                        <p class="text-xl font-semibold text-primary-blue">Primary Key Skill</p>
+                        <p class="text-lg text-gray-700"> Front-end Development </p>
+                    </div>
+                    <!-- Skill Card 2 -->
+                    <div class="bg-primary-blue/10 p-4 rounded-lg shadow-sm hover:shadow-md transition duration-300">
+                        <p class="text-xl font-semibold text-primary-blue">Secondary Key Skill</p>
+                        <p class="text-lg text-gray-700"> UI/UX Designing </p>
+                    </div>
+                    <!-- Skill Card 3 -->
+                    <div class="bg-primary-blue/10 p-4 rounded-lg shadow-sm hover:shadow-md transition duration-300">
+                        <p class="text-xl font-semibold text-primary-blue">Third Key Skill</p>
+                        <p class="text-lg text-gray-700"> Content Strategy & SEO</p>
+                    </div>
+                    <!-- Skill Card 4 -->
+                    <div class="bg-primary-blue/10 p-4 rounded-lg shadow-sm hover:shadow-md transition duration-300">
+                        <p class="text-xl font-semibold text-primary-blue">Additional Capability</p>
+                        <p class="text-lg text-gray-700"> Teamwork and Project Management</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Call to Action Section -->
+            <section class="p-8 bg-primary-blue text-white rounded-xl shadow-2xl text-center">
+                <h3 class="text-3xl font-bold mb-4">Let's Work Together!</h3>
+                <p class="text-xl mb-6">
+                    If you are planning to start a new idea, looking for a partner for a challenging project, or just want to discuss your field of work, I would be delighted to hear from you.
+                </p>
+                <a href="https://wa.me/923261173883" class="inline-block px-8 py-3 bg-white text-primary-blue font-semibold rounded-full shadow-lg hover:bg-gray-200 transition duration-300 transform hover:scale-105">
+                    Contact
+                </a>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer Placeholder -->
+    <footer class="bg-white border-t mt-12">
+        <div class="container mx-auto px-4 py-6 text-center text-gray-500">
+            <p>© [Insert Current Year]. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
