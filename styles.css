@@ -668,9 +668,7 @@ font-size: 20px;
             
         }
         @media (max-width:768px) {
-        .non{
-            display: none;
-        }
+        
         .eshal{
             position: relative;
             bottom: 5vh;
