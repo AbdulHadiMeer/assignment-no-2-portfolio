@@ -96,6 +96,8 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            text-decoration: none;
+        
         }
         .king{
             border-bottom-width: 2px;
@@ -105,6 +107,8 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     padding-bottom: 4px;
     font-weight: bold;
+
+    
 }
         
         .king:hover {
@@ -543,9 +547,19 @@ font-size: 20px;
             height: 40px;
             background-color:yellow;;
             color: black;
-            font-weight: bold;;
+            font-weight: bold;
             
         }
+        .about{
+            text-decoration: none;
+            border-bottom-color: transparent;
+    transition-property: color, border-color, background-color, transform;
+    transition-duration: 200ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    padding-bottom: 4px;
+    font-weight: bold;
+        }
+    
          
         <div class="voltage-button">
   
@@ -685,6 +699,11 @@ font-size: 20px;
         .babar{
             left: 1vh;
         }
-        
+        .span{
+            display: none;
+
         }
-       
+        .non{
+            display: none;
+        }
+    }
